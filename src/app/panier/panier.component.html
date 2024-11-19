@@ -1,0 +1,12 @@
+<div class="panier">
+  <ul class="product-list">
+    <li *ngFor="let product of products" class="product-item">
+      <div class="product-details">
+        <h3>{{ product.name }}</h3>
+        <p>Price: {{ product.price }}</p>
+      </div>
+    </li>
+  </ul>
+
+  <button class="confirm-button" (click)="confirmOrder()">Confirm Order</button>
+</div>

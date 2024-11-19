@@ -1,0 +1,40 @@
+.panier {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.product-details {
+  margin-left: 20px;
+}
+
+.confirm-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.confirm-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
